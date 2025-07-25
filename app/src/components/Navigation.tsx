@@ -7,19 +7,19 @@ import DokployLogo from "./ui/dokploy-logo";
 const Navigation = () => {
   const [githubStars, setGithubStars] = useState(0);
   useEffect(() => {
-    const fetchGithubStars = async () => {
-      try {
-        const response = await fetch(
-          "https://api.github.com/repos/dokploy/dokploy"
-        );
-        const data = await response.json();
-        setGithubStars(data.stargazers_count);
-      } catch (error) {
-        console.error("Error fetching GitHub stars:", error);
-      }
-    };
+    // const fetchGithubStars = async () => {
+    //   try {
+    //     const response = await fetch(
+    //       "https://api.github.com/repos/dokploy/dokploy"
+    //     );
+    //     const data = await response.json();
+    //     setGithubStars(data.stargazers_count);
+    //   } catch (error) {
+    //     console.error("Error fetching GitHub stars:", error);
+    //   }
+    // };
 
-    fetchGithubStars();
+    // fetchGithubStars();
   }, [setGithubStars]);
 
   return (
