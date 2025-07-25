@@ -8,7 +8,7 @@ services:
     environment:
       MARIADB_DATABASE: ${MYSQL_DATABASE}
       MARIADB_USER: ${MYSQL_USER}
-      MARIADB_PASSWORD: ${password:16}
+      MARIADB_PASSWORD: ${MYSQL_USER_PASSWORD}
       MARIADB_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
   leconfe:
     image: leconfe/leconfe:1.3.0-beta.4
