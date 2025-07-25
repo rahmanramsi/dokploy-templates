@@ -6,13 +6,3 @@ main_domain = "${domain}"
 serviceName = "leconfe"
 port = 8080
 host = "${main_domain}"
-
-[config.env]
-APP_KEY = "base64:Kf9INTbEPlJeuGTDVPp0sed4FIRP5cm9ZZULteNAOkM="
-APP_ADMIN_EMAIL = "admin@leconfe.com"
-APP_ADMIN_PASSWORD = "${password:16}"
-APP_URL = "http://${main_domain}"
-MYSQL_DATABASE="leconfe"
-MYSQL_USER="leconfe"
-MYSQL_USER_PASSWORD="${password:16}"
-MYSQL_ROOT_PASSWORD="${password:16}"

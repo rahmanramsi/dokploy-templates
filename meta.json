@@ -13,5 +13,20 @@
     "tags": [
       "conference academic"
     ]
+  },
+  {
+    "id": "leconfe-db",
+    "name": "Leconfe with db",
+    "version": "1.3.0-beta.4",
+    "description": "Leconfe is a free conference academic platform",
+    "logo": "leconfe.png",
+    "links": {
+      "github": "https://github.com/leconfe/leconfe",
+      "website": "https://leconfe.com/",
+      "docs": "https://leconfe.com/docs/"
+    },
+    "tags": [
+      "conference academic"
+    ]
   }
 ]
